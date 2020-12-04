@@ -18,12 +18,10 @@ library(healthyR)
 set.seed(123)
 
 # Library Load ----
-if(!require(pacman)) {install.packages("pacman")}
-pacman::p_load(
-  "timetk"
-  , "healthyR"
-  , "tidyverse"
-)
+suppressPackageStartupMessages(library(healthyR))
+suppressPackageStartupMessages(library(timetk))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(purrr))
 
 # Make A Series of Dates ----
 ts_tbl <- tk_make_timeseries(
