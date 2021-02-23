@@ -1,6 +1,6 @@
 Package: healthyR
 Title: Hospital Data Analysis Workflow Tools
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(
     person("Steven","Sanderson", email = "spsanderson@gmail.com", role = c("aut","cre")),
     person("Steven Sanderson", role = "cph"))
@@ -17,14 +17,15 @@ RoxygenNote: 7.1.1
 URL: https://github.com/spsanderson/healthyR
 BugReports: https://github.com/spsanderson/healthyR/issues
 Imports: magrittr, rlang (>= 0.1.2), tibble, timetk, ggplot2, dplyr,
-        lubridate, graphics, purrr, stringr, writexl, cowplot, scales
+        lubridate, graphics, purrr, stringr, writexl, cowplot, scales,
+        sqldf
 Suggests: knitr, rmarkdown, roxygen2, pacman, healthyR.data
 VignetteBuilder: knitr
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2020-12-04 18:02:34 UTC; Steve
+Packaged: 2021-02-23 14:08:22 UTC; Steve
 Author: Steven Sanderson [aut, cre],
   Steven Sanderson [cph]
 Maintainer: Steven Sanderson <spsanderson@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-12-04 23:40:15 UTC
+Date/Publication: 2021-02-23 15:30:02 UTC

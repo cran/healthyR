@@ -6,10 +6,10 @@
 <!-- badges: start -->
 
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/healthyR)](https://cran.r-project.org/package=healthyR)
-![](http://cranlogs.r-pkg.org/badges/healthyR?color=brightgreen)
-![](http://cranlogs.r-pkg.org/badges/grand-total/healthyR?color=brightgreen)
+![](https://cranlogs.r-pkg.org/badges/healthyR)
+![](https://cranlogs.r-pkg.org/badges/grand-total/healthyR)
 [![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html##experimental)
 <!-- badges: end -->
 
 The goal of healthyR is to help quickly analyze common data problems in
@@ -48,7 +48,6 @@ ts_ymwdh_tbl(.data = m4_daily, .date_col = date) %>%
         , .ggplot_group_var = yr
         , .years_back = 5
     )
-#> Joining, by = "wk"
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
