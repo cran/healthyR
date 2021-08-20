@@ -1,3 +1,15 @@
+# healthyR 0.1.6
+
+## Breaking Changes
+None
+
+## New Features
+1. Fix #92 - Add `diverging_lollipop_plt`
+2. Fix #93 - Add `diverging_bar_plt`
+
+## Minor Fixes and Improvements
+1. Fix #90 - Add startup message at library attachment.
+
 # healthyR 0.1.5
 
 ## Breaking Changes
