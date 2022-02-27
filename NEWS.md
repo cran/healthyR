@@ -1,3 +1,15 @@
+# healthyR 0.1.8
+
+## Breaking Changes
+None
+
+## New Features
+None
+
+## Minor Fixes and Improvements
+1. Fix #116 - Drop need for `cli`, `crayon`, and `rstudioapi`
+2. F-x #105 - correct code and make minor updates to `ts_census_los_daily_tbl()`
+
 # healthyR 0.1.7
 
 ## Breaking Changes
