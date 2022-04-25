@@ -1,3 +1,14 @@
+# healthyR 0.1.9
+
+## Breaking Changes
+None
+
+## New Features
+None
+
+## Minor Fixes and Improvements
+1. Fix #129 - Default to `ggplot2::theme_minimal()` for all plots.
+
 # healthyR 0.1.8
 
 ## Breaking Changes
