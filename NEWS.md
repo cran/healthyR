@@ -1,3 +1,17 @@
+# healthyR 0.2.0
+
+## Breaking Changes
+None
+
+## New Features
+1. Fix #139 - Add functions `color_blind()` `hr_scale_fill_colorblind()` 
+and `hr_scale_color_colorblind()`
+2. Fix #138 - Add parameter to `gartner_magic_chart_plt()` function in order to 
+size points accoring to a column in a data.frame/tibble.
+
+## Minor Fixes and Improvements
+None
+
 # healthyR 0.1.9
 
 ## Breaking Changes
