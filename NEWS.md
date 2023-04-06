@@ -1,3 +1,16 @@
+# healthyR 0.2.1
+
+## Breaking Changes
+1. Fix #141 - Drop support for kmeans functions and umap functions as they were
+moved to `healthyR.ai`
+2. Fix #152 - Updated Depends to R >= 3.3
+
+## New Features
+None
+
+## Minor Fixes and Improvements
+None
+
 # healthyR 0.2.0
 
 ## Breaking Changes
