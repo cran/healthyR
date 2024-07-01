@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# healthyR <img src="man/figures/test7.png" width="147" height="170" align="right" />
+# healthyR <img src="man/figures/logo.png" width="147" height="170" align="right" />
 
 <!-- badges: start -->
 
@@ -97,11 +97,11 @@ gartner_magic_chart_plt(
   , .y_col = y
   , .y_lab = "los"
   , .x_lab = "RA"
-  , .plt_title = "Test Title"
-  , .tl_lbl = "Top Left lbl"
-  , .tr_lbl = "Top Right lbl"
-  , .bl_lbl = "Bottom Left lbl"
-  , .br_lbl = "Bottom Right lbl"
+  , .plot_title = "Test Title"
+  , .top_left_label = "Top Left lbl"
+  , .top_right_label = "Top Right lbl"
+  , .bottom_left_label = "Bottom Left lbl"
+  , .bottom_right_label = "Bottom Right lbl"
 )
 ```
 
